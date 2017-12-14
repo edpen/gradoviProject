@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradoviProject.iml" filepath="$PROJECT_DIR$/.idea/modules/gradoviProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradoviProject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gradoviProject_main.iml" group="gradoviProject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradoviProject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gradoviProject_test.iml" group="gradoviProject" />
+    </modules>
+  </component>
+</project>
