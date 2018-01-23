@@ -1,6 +1,5 @@
 package glavni.service;
 
-import glavni.Response;
 import glavni.dao.GradoviRepository;
 import glavni.dto.GradoviDto;
 import glavni.domain.Gradovi;
@@ -42,7 +41,7 @@ public class GradoviServiceimpl implements GradoviService {
         if (list.size()==0)
             return null ;
         else
-        return oTransformer.domainToDtoList(list);
+            return oTransformer.domainToDtoList(list);
     }
     @Override
     public GradoviDto returnById(long id){
@@ -50,7 +49,7 @@ public class GradoviServiceimpl implements GradoviService {
     }
     @Override
     public void deleteGrad(long id){
-            gradoviRepository.delete(id);
+        gradoviRepository.delete(id);
     }
 
     @Override

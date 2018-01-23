@@ -2,12 +2,15 @@ package glavni.dto;
 
 import org.springframework.stereotype.Component;
 
+import javax.validation.constraints.NotNull;
+
 @Component
 public class GradoviDto  {
         private  long id;
+        @NotNull
         private  String grad;
+        @NotNull
         private  String drzava;
-
         public GradoviDto ( long id,String grad,String drzava)
         {
             this.id=id;
@@ -15,6 +18,7 @@ public class GradoviDto  {
             this.drzava=drzava;
         }
         public GradoviDto(){}
+
     public long getId(){
         return id;
     }

@@ -1,4 +1,4 @@
-package glavni;
+package glavni.ResponseObject;
 
 public class Response<T> {
 
@@ -15,6 +15,7 @@ public class Response<T> {
         this.status = status;
         this.message = message;
     }
+
     public String getStatus() {
         return status;
     }
